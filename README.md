@@ -110,3 +110,13 @@ $ chmod +x mvnw
 $ docker-compose up -d
 
 ```
+
+### Em caso de erro: no space left on device
+
+```bash
+$ cd ~/environment/
+$ rm -rf config-ubuntu
+$ git clone https://github.com/tonanuvem/config-ubuntu.git
+$ chmod +x resize.sh
+$ ./resize.sh
+```

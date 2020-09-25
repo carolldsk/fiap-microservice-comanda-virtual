@@ -114,7 +114,7 @@ $ docker-compose up -d
 ### Em caso de erro: no space left on device
 
 ```bash
-# Alterando o espaço da VM
+# Aumentando o espaço da VM
 $ cd ~/environment/
 $ rm -rf config-ubuntu
 $ git clone https://github.com/tonanuvem/config-ubuntu.git

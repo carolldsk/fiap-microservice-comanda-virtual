@@ -114,9 +114,13 @@ $ docker-compose up -d
 ### Em caso de erro: no space left on device
 
 ```bash
+# Alterando o espaço da VM
 $ cd ~/environment/
 $ rm -rf config-ubuntu
 $ git clone https://github.com/tonanuvem/config-ubuntu.git
 $ chmod +x resize.sh
 $ ./resize.sh
+
+# Removendo de uma vez todas as imagens
+$ docker system prune --all --force --volumes
 ```

@@ -122,5 +122,6 @@ $ chmod +x resize.sh
 $ ./resize.sh
 
 # Removendo de uma vez todas as imagens
+docker stop $(docker ps -a -q)
 $ docker system prune --all --force --volumes
 ```
